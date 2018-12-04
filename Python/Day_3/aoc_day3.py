@@ -19,4 +19,27 @@ for line in PUZZLEINPUT:
     claims.append([int(x) for x in match.groups()])
 
 # See all the squares vizualized
-# vizualisation.plot_claims(claims)
+#vizualisation.plot_claims(claims)
+
+# Create 1000x1000 grid
+N = 1000
+squares = [[] for i in range(N)]
+for i in range(N):
+    for j in range(N):
+        squares[i].append([])
+
+# For all claims fill x-coordinates then y-coordinates with ID of box
+for claim in claims: 
+    for i in range(claim[1],claim[1]+claim[3]):
+        for j in range(claim[2],claim[2]+claim[4]):
+            squares[i][j].append(claim[0])
+
+overlaps = 0
+
+# Check for overlaps by checking for all arrays with 2 or more IDS
+for k in range (N):
+        for l in range (N):
+                if len(squares[k][l]) >= 2:
+                        overlaps += 1
+
+print("Part 1: Overlaps: {}".format(overlaps))
