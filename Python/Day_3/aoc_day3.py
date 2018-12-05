@@ -19,7 +19,7 @@ for line in PUZZLEINPUT:
     claims.append([int(x) for x in match.groups()])
 
 # See all the squares vizualized
-#vizualisation.plot_claims(claims)
+vizualisation.plot_claims(claims)
 
 # Create 1000x1000 grid
 N = 1000

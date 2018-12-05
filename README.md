@@ -9,11 +9,14 @@ My solutions to AOC 2018.
 | 02      | [Inventory Management System][day02]                            |     |                              |
 | 03      | [No Matter How You Slice It][day03]                            |    |                               |
 | 04      | [Repose Record][day04]                            |     |                               |
+| 05      | [Alchemical Reduction][day05]                            |     |                               |
 
 [day01]: https://adventofcode.com/2018/day/1
 [day02]: https://adventofcode.com/2018/day/2
 [day03]: https://adventofcode.com/2018/day/3
 [day04]: https://adventofcode.com/2018/day/4
+[day05]: https://adventofcode.com/2018/day/5
+
 
 
 [py01]: ./Python/Day_1/aoc_day1.py
