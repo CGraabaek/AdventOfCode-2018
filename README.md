@@ -7,7 +7,7 @@ My solutions to AOC 2018.
 |:-------:|:--------------------------------------------------------|:------------------------------:|:----------------------------:|
 | 01      | [Chronal Calibration][day01]                            |  [:heavy_check_mark:][py01]   |                               |
 | 02      | [Inventory Management System][day02]                            |     |                              |
-| 03      | [No Matter How You Slice It][day03]                            |    |                               |
+| 03      | [No Matter How You Slice It][day03]                      |[:heavy_check_mark:][py03]    |                               |
 | 04      | [Repose Record][day04]                            |     |                               |
 | 05      | [Alchemical Reduction][day05]                            |     |                               |
 

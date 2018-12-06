@@ -18,8 +18,6 @@ for line in PUZZLEINPUT:
     match = re.match(regex_pattern,line)
     claims.append([int(x) for x in match.groups()])
 
-# See all the squares vizualized
-vizualisation.plot_claims(claims)
 
 # Create 1000x1000 grid
 N = 1000
@@ -43,3 +41,21 @@ for k in range (N):
                         overlaps += 1
 
 print("Part 1: Overlaps: {}".format(overlaps))
+
+def is_not_overlapping(claim):
+        for i in range(claim[1],claim[1]+claim[3]):
+                for j in range(claim[2],claim[2]+claim[4]):
+                        if len(squares[i][j]) > 1:
+                                return False
+        return True           
+
+
+
+for claim in claims:
+        if(is_not_overlapping(claim)):
+                break
+
+print("Part 2: Not Overlapping: #{} X:{},Y:{}".format(claim[0],claim[1],claim[2]))
+
+# See all the squares vizualized
+vizualisation.plot_claims(claims,claim)
