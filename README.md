@@ -10,12 +10,17 @@ My solutions to AOC 2018.
 | 03      | [No Matter How You Slice It][day03]                      |[:heavy_check_mark:][py03]    |                               |
 | 04      | [Repose Record][day04]                            |     |                               |
 | 05      | [Alchemical Reduction][day05]                            |     |                               |
+| 06      | [Chronal Coordinates][day06]                            |     |                               |
+| 07      | [The Sum of Its Parts][day07]                            |     |                               |
+
 
 [day01]: https://adventofcode.com/2018/day/1
 [day02]: https://adventofcode.com/2018/day/2
 [day03]: https://adventofcode.com/2018/day/3
 [day04]: https://adventofcode.com/2018/day/4
 [day05]: https://adventofcode.com/2018/day/5
+[day06]: https://adventofcode.com/2018/day/6
+[day07]: https://adventofcode.com/2018/day/7
 
 
 
