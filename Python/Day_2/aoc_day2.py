@@ -6,7 +6,6 @@ PUZZLEINPUT = open('input.txt', 'r').read()
 twos = 0
 threes = 0
 
-
 for line in PUZZLEINPUT.split():
     b = Counter(line)
     if b.most_common(3)[0][1]==3 or b.most_common(3)[1][1]==3:

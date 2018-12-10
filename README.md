@@ -27,4 +27,5 @@ My solutions to AOC 2018.
 [py01]: ./Python/Day_1/aoc_day1.py
 [py02]: ./Python/Day_2/aoc_day2.py
 [py03]: ./Python/Day_3/aoc_day3.py
+[py04]: ./Python/Day_3/aoc_day4.py
 
